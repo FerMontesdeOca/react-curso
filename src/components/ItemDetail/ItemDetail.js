@@ -1,10 +1,7 @@
 
 
 
-const ItemDetail =() => {
-
-
-
+const ItemDetail =({id, brand , Description, price }) => {
 
 
     return(

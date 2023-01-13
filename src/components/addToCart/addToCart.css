@@ -1,0 +1,37 @@
+.buttonsCart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.buttonsCounter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+
+.counterText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+  font-size: large;
+}
+
+#counterAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#counterLess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}/*# sourceMappingURL=addToCart.css.map */

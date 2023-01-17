@@ -1,6 +1,7 @@
+import AddTocart from "../addToCart/addToCart";
+import CardMedia from '@mui/material/CardMedia';
+
 const ItemDetail = ({id, brand, Description,price}) => {
-
-
   return (
    <Card id='basicCard' className='col-5' sx={{ maxWidth: 285 }}>
           <CardMedia  

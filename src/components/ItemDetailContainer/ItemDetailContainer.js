@@ -5,7 +5,7 @@ import ItemDetail from "../ItemDetail/ItemDetail"
 
 
 
-const ItemdetailConatiner =({itemId})=>{
+const ItemDetailConatiner =({itemId})=>{
 
     const [item, setItem] = useState(null)
 
@@ -32,4 +32,4 @@ return(
 
 
 
-export default ItemdetailConatiner
+export default ItemDetailConatiner

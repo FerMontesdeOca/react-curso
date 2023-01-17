@@ -12,7 +12,13 @@ export const pedirItemPorId =(id) =>{
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
             const item = stock.find((element)=> element.id === id)
-            resolve(item)
+            if(item){
+                resolve(item)
+            }else{
+                reject({
+                    error: 'No se encontro ese producto'
+                })
+            }
         },500)
     })
 }

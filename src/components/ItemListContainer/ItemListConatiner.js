@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import BasicCard from "../card/basicCard";
 import { pedirDatos } from "../helpers/helpers";
+import ItemList from "../ItemList/ItemList";
 
 const ItemListConatiner = () => {
   const [productos, setProductos] = useState([]);
@@ -23,7 +23,7 @@ const ItemListConatiner = () => {
 
   return (
     <div className="container my-5">
-      <BasicCard productos={productos} />
+      <ItemList productos={productos} />
     </div>
   );
 };

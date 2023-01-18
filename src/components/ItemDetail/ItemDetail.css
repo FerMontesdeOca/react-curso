@@ -1,0 +1,12 @@
+#itemDetail__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+  margin: 10px;
+}
+
+#itemDetail__img {
+  width: 18rem;
+}/*# sourceMappingURL=ItemDetail.css.map */

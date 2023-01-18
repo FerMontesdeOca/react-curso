@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import './basicCard.scss'
-import Button from '@mui/material/Button';
+import { Link } from "react-router-dom"
 
 
 const BasicCard = ({id, brand, Description,price}) => {
@@ -23,9 +23,7 @@ const BasicCard = ({id, brand, Description,price}) => {
         </Typography>
         <Typography id='verMas__button' variant="h6" color="text.secondary">
           <b>{new Intl.NumberFormat('en-US', {style:'currency', currency: 'USD'}).format(price)}</b>
-          <Button variant="contained" size="medium">
-          Ver mas
-        </Button>
+          <Link to={`/detail/${id}`} className="btn btn-outline-primary">Ver más</Link>
         </Typography>
       </CardContent>
       </Card>

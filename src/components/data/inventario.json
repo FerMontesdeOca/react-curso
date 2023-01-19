@@ -1,106 +1,121 @@
 [{
     "id": 1,
     "brand": "Dell",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "5000",
-    "category": "Desktops"
+    "category": "Desktops",
+    "stock": "10"
   },
   {
     "id": 2,
     "brand": "HP",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "4000",
-    "category": "Desktops"
+    "category": "Desktops",
+    "stock": "10"
   },
   {
     "id": 3,
     "brand": "HP",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "7000",
-    "category": "Desktops"
+    "category": "Desktops",
+    "stock": "10"
   },
   {
     "id": 4,
     "brand": "Dell",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "4000",
-    "category": "Desktops"
+    "category": "Desktops",
+    "stock": "10"
   },
   {
     "id": 5,
     "brand": "HP",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 23.8 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "8000",
-    "category": "Desktops"
+    "category": "Desktops",
+    "stock": "10"
   },
   {
     "id": 6,
     "brand": "Acer",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "10000",
-    "category": "Laptops"
+    "category": "Laptops",
+    "stock": "10"
   },
   {
     "id": 7,
     "brand": "Dell",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "1200",
-    "category": "Laptops"
+    "category": "Laptops",
+    "stock": "10"
   },
   {
     "id": 8,
     "brand": "Acer",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "20000",
-    "category": "Laptops"
+    "category": "Laptops",
+    "stock": "10"
   },
   {
     "id": 9,
     "brand": "Lenovo",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "10000",
-    "category": "Laptops"
+    "category": "Laptops",
+    "stock": "10"
   },
   {
     "id": 10,
     "brand": "Lenovo",
-    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal, Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
+    "Description": "Procesador hasta AMD Ryzen™ 7, Windows 11, Black Stabilizer, Pantalla de 13 pulgadas en diagonal.\n\n Gráficas hasta AMD Radeon™ o NVIDIA® GeForce, visibilidad completa en zonas oscuras, Tiempo de Respuesta 1ms",
     "price": "15000",
-    "category": "Laptops"
+    "category": "Laptops",
+    "stock": "10"
   },
   {
     "id": 11,
     "brand": "Logitech",
-    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm); Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
+    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm).\n\n Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
     "price": "500",
-    "category": "Accesorios"
+    "category": "Accesorios",
+    "stock": "10"
   },
   {
     "id": 12,
     "brand": "Microsoft",
-    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm); Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
+    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm)\n\n Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
     "price": "1200",
-    "category": "Accesorios"
+    "category": "Accesorios",
+    "stock": "10"
   },
   {
     "id": 13,
     "brand": "HP",
-    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm); Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
+    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm)\n\n Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
     "price": "900",
-    "category": "Accesorios"
+    "category": "Accesorios",
+    "stock": "10"
   },
   {
     "id": 14,
     "brand": "Logitech",
-    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm); Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
+    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm)\n\n Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
     "price": "2000",
-    "category": "Accesorios"
+    "category": "Accesorios",
+    "stock": "10"
   },
   {
     "id": 15,
     "brand": "Logitech",
-    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm); Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
+    "Description": "Bluetooth, Inalámbrico,Universal, Teclado Negro, Dimensiones: Altura: 4.9 in (124 mm); Ancho: 10,9 pulgadas (279 mm)\n\n Profundidad: 0.6 in (16 mm) incluyendo pies; Peso: 14.92 oz (423 g) incluyend,baterías",
     "price": "800",
-    "category": "Accesorios"
+    "category": "Accesorios",
+    "stock": "10"
   }
 ]

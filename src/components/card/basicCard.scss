@@ -8,3 +8,14 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+@media(max-width: 768px){
+    #basicCard{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        width: 100%;
+        height: auto;
+    }
+}

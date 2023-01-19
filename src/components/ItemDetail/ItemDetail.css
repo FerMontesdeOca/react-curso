@@ -3,10 +3,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  height: auto;
   margin: 10px;
 }
 
 #itemDetail__img {
   width: 18rem;
+}
+
+@media (max-width: 768px) {
+  #itemDetail__card {
+    display: block;
+  }
+  #itemDetail__card #itemDetail__img {
+    width: auto;
+  }
 }/*# sourceMappingURL=ItemDetail.css.map */

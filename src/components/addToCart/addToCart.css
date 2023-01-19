@@ -34,4 +34,26 @@
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.addToCart__btn {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+@media (max-width: 768px) {
+  .buttonsCart {
+    display: block;
+    margin: 5px;
+    padding: 0;
+  }
+  .addToCart__btn {
+    display: block;
+    width: 100%;
+  }
+  #containerCart {
+    margin-right: 20px;
+  }
 }/*# sourceMappingURL=addToCart.css.map */

@@ -1,38 +1,42 @@
-import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import './addToCart.scss'
+import { useNavigate } from "react-router-dom";
+
+const AddTocart = ({max, cantidad, setCantidad, addCart}) =>{
 
 
-const AddTocart = () =>{
-
-    let [counter, setCounter] = useState(1)
-
-    const sumar =()=>{
-        setCounter(counter +1)
+    const handleRestar =()=>{
+      cantidad > 1 && setCantidad(cantidad -1)
     }
-    const restar =()=>{
-        if(counter > 1){
-            setCounter(counter -1)
-        }
+
+    const handleSumar =()=>{
+      cantidad < max && setCantidad(cantidad +1)
+    }
+    
+    const navigate = useNavigate()
+
+    const handleOver =() =>{
+        navigate(-1)
     }
 
     return(
         <div className="buttonsCart">
         <div className="buttonsCounter">
-          <Button variant="outline-primary" id="counterLess" onClick={restar}>
+          <Button variant="outline-primary" id="counterLess" onClick={handleRestar}>
              - 
-          </Button>{' '}
+          </Button>
             <p className="counterText">
-            {counter}
+            {cantidad}
             </p>
-          <Button variant="outline-primary" id="counterAdd" onClick={sumar}>
+          <Button variant="outline-primary" id="counterAdd" onClick={handleSumar}>
             +
-          </Button>{' '}
+          </Button>
         </div>
-        <div>
-            <Button variant="primary" id="containerCart">
+        <div className="addToCart__btn">
+            <Button variant="primary" id="containerCart" onClick={addCart}>
                 Add to cart
-            </Button>{' '}
+            </Button>
+            <Button className="btn btn-primary" onClick={handleOver}>Volver</Button>
         </div>
       </div>
     )

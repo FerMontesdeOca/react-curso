@@ -6,7 +6,21 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import "./ItemDetail.scss"
 
-const ItemDetail = ({id, brand, Description,price}) => {
+const ItemDetail = ({id, brand, Description,price, stock}) => {
+
+  const[cantidad, setCantidad] = React.useState(1)
+
+  const handleAgregar =() =>{
+    console.log({
+      id,
+      brand,
+      Description,
+      price,
+      cantidad
+    })
+  }
+
+
   return (
    <Card id='itemDetail__card'>
           <CardMedia id="itemDetail__img"  
@@ -24,7 +38,7 @@ const ItemDetail = ({id, brand, Description,price}) => {
         <Typography id='verMas__button' variant="h6" color="text.secondary">
           <b>{new Intl.NumberFormat('en-US', {style:'currency', currency: 'USD'}).format(price)}</b>
         </Typography>
-        <AddTocart/>
+        <AddTocart max={stock} cantidad={cantidad} setCantidad={setCantidad} addCart={handleAgregar}/>
       </CardContent>
       </Card>
   );

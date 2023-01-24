@@ -1,1 +1,1 @@
-{"version":3,"sources":["basicCard.scss","basicCard.css"],"names":[],"mappings":"AAAA;EACI,yBAAA;EACA,UAAA;EACA,gBAAA;ACCJ;;ADCA;EACI,aAAA;EACA,mBAAA;EACA,8BAAA;ACEJ;;ADEA;EACI;IACI,aAAA;IACA,sBAAA;IACA,YAAA;IACA,WAAA;IACA,YAAA;ECCN;AACF","file":"basicCard.css"}
+{"version":3,"sources":["basicCard.scss","basicCard.css"],"names":[],"mappings":"AAAA;EACI,yBAAA;EACA,UAAA;EACA,gBAAA;ACCJ;;ADEA;EACI,aAAA;EACA,mBAAA;EACA,6BAAA;EACA,mBAAA;ACCJ;;ADEA;EACI;IACI,aAAA;IACA,sBAAA;IACA,YAAA;IACA,WAAA;IACA,YAAA;ECCN;AACF","file":"basicCard.css"}

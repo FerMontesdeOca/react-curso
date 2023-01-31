@@ -3,6 +3,8 @@ import Badge from '@mui/material/Badge';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Link } from 'react-router-dom';
+import { CartContext } from '../context/CartContext';
 import "./CartWidget.scss"
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
@@ -14,12 +16,15 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
   },
 }));
 
-export default function CartShopping() {
+export default function CustomizedBadges() {
+  const {totalArticulos} = React.useContext(CartContext)
   return (
-    <IconButton id='menu__cart' aria-label="cart" color='white'>
-      <StyledBadge badgeContent={1} color="secondary">
-        <ShoppingCartIcon />
+    <Link to="/cart" id='cartIcon'>
+    <IconButton  aria-label="cart">
+      <StyledBadge badgeContent={totalArticulos()} color="secondary">
+        <ShoppingCartIcon/>
       </StyledBadge>
     </IconButton>
+    </Link>
   );
 }

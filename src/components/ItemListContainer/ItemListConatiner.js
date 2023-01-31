@@ -6,7 +6,7 @@ import ItemList from "../ItemList/ItemList";
 const ItemListConatiner = () => {
   const [productos, setProductos] = useState([]);
   const { categoryId } = useParams();
-  console.log(categoryId);
+  // console.log(categoryId);
   useEffect(() => {
     pedirDatos()
       .then((res) => {

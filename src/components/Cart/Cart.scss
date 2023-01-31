@@ -1,0 +1,28 @@
+#itemDetail__card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.card__img{
+    width: 80%;
+}
+
+#itemDetail__img{
+    width: 18rem;
+}
+
+@media(max-width: 768px){
+    #itemDetail__card{
+        display: block;
+        
+        #itemDetail__img{
+            width: auto;
+        }
+        .btnVaciar{
+            margin-left: 25px;
+        }
+    }  
+}

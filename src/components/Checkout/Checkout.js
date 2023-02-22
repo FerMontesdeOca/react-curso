@@ -129,16 +129,3 @@ const Checkout = () => {
 }
 
 export default Checkout
-
-// cart.forEach(prod => {
-        //     const docRef = doc(productosRef, prod.id)
-        //     getDoc(docRef)
-        //         .then((doc) => {
-        //             if (doc.data().stock - prod.cantidad >= 0) {
-        //                 updateDoc(docRef, { stock: doc.data().stock - prod.cantidad})
-                    
-        //             } else {
-        //                 alert("No hay stock disponible")
-        //             }
-        //         })
-        // })

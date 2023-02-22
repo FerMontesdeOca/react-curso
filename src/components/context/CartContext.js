@@ -7,8 +7,6 @@ export const useCartContext = () => {
   return useContext(CartContext)
 }
 
-// const init = JSON.parse(localStorage.getItem('cart')) || []
-
 export const CartProvider =({children}) =>{
     const [cart, setcart] = useState([]);
 

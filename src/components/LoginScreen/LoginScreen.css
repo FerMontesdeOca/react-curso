@@ -1,0 +1,45 @@
+.login-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(104, 202, 247);
+  opacity: 0.8;
+  background: repeating-linear-gradient(45deg, #0a0e56, #0a0e56 14.5px, rgb(104, 202, 247) 14.5px, rgb(104, 202, 247) 72.5px);
+}
+.login-screen h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-screen .loginImg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-screen .linkForm {
+  margin-left: 70px;
+}
+.login-screen .formLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-screen .buttonsForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-screen .login {
+  width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.login-screen .error {
+  color: red;
+  font-weight: 700;
+  font-size: 16px;
+}/*# sourceMappingURL=LoginScreen.css.map */

@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import "./ItemDetail.scss"
 import { CartContext } from "../context/CartContext";
 
-const ItemDetail = ({id, brand, Description,price, stock}) => {
+const ItemDetail = ({id, image, brand, Description,price, stock}) => {
 
   const {agregarAlCarrito} = React.useContext(CartContext);
 
@@ -19,6 +19,7 @@ const ItemDetail = ({id, brand, Description,price, stock}) => {
       brand,
       Description,
       price,
+      image,
       cantidad
     }
 
@@ -30,7 +31,7 @@ const ItemDetail = ({id, brand, Description,price, stock}) => {
    <Card id='itemDetail__card'>
           <CardMedia id="itemDetail__img"  
           component="img"
-          src={`../assets/Pcs/${id}.jpg`}
+          src={image}
           alt="green iguana"
         />
         <CardContent>

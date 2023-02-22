@@ -41,7 +41,7 @@ const AddTocart = ({max, cantidad, setCantidad, addCart, id}) =>{
             ?<Button variant="primary" id="containerCart" onClick={addCart}>
               Add to cart
               </Button>
-            : <Link to="/cart" className="btn btn-primary">Terminar mi Compra</Link>
+            : <Link to="/cart" className="btn btn-primary">Ir a carrito</Link>
           }
             <Button className="btn btn-primary" onClick={handleOver}>Volver</Button>
         </div>

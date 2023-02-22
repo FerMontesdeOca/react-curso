@@ -6,7 +6,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Button from "react-bootstrap/Button";
-import {BsTrash} from "react-icons/bs"
+import {BsTrash} from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 
 const Cart = () => {
@@ -20,7 +21,7 @@ const Cart = () => {
           <CardMedia
             id="itemDetail__img"
             component="img"
-            src={`../assets/Pcs/${item.id}.jpg`}
+            src={item.image}
             alt="green iguana"
           />
           <CardContent>
@@ -44,6 +45,7 @@ const Cart = () => {
       ))}
       <h4 className="my-3 text-white">Total de compra: ${totalCompra()}</h4>
       <Button className="btn btn-primary my-4" onClick={emptyCart}>Vaciar carrito</Button>
+      <Link to="/checkout" className="btn btn-primary ms-3">Terminar mi Compra</Link>
     </div>
   );
 };

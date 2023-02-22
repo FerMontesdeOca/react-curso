@@ -4,11 +4,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import CartShopping from '../CartWidget/CartWidget';
 import"./Navbar.scss";
 import {Link} from "react-router-dom";
+import { useLoginContext} from "../context/LoginContext";
 
 function MenuNavbar() {
+  const { user, logout } = useLoginContext();
+
   return (
     <div className="menu__navbar">
-    <Navbar expand="lg" >
+    <Navbar expand="lg" className='navbarCatalogo' >
       <Container >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -20,8 +23,12 @@ function MenuNavbar() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
     <CartShopping/>
+    </Navbar>
+    <div className='header__container'>
+                <p>Bienvenido: {user.email}</p>
+                <button className='btn btn-danger' onClick={logout}>Logout</button>
+            </div>
     </div>
   );
 }

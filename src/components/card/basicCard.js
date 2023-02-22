@@ -4,10 +4,10 @@ import './basicCard.scss'
 import { Link } from "react-router-dom"
 
 
-const BasicCard = ({id, brand,price}) => {
+const BasicCard = ({ id,brand,price, image }) => {
   return (
     <Card id='basicCard' style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={`../assets/Pcs/${id}.jpg`} />
+      <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{brand}</Card.Title>
         <Card.Text className='card__text'>

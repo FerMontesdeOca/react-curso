@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { pedirItemPorId } from "../helpers/helpers"
 import ItemDetail from "../ItemDetail/ItemDetail"
-
-
+import { doc, getDoc } from "firebase/firestore"
+import { db } from "../../firebase/config"
 
 
 const ItemDetailConatiner =()=>{
@@ -12,13 +11,16 @@ const ItemDetailConatiner =()=>{
     const {itemId}= useParams();
 
     useEffect(()=> {
-        pedirItemPorId(Number(itemId))
-         .then((data =>{
-            setItem(data)
-         }))
-         .catch((error)=>{
-            console.log(error)
-         })
+       //Referencia
+       const docRef = doc(db, "productos", itemId);
+
+       //Peticion Async
+       getDoc(docRef)
+        .then(doc => {
+            setItem({...doc.data(), id: doc.id})
+        })
+
+
     }, [itemId])
 
 return(

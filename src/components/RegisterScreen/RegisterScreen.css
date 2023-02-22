@@ -1,0 +1,38 @@
+.login-screen {
+  width: 100%;
+  height: 100vh;
+  background-color: #78ccb0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-screen h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-screen .linkForm {
+  margin-left: 70px;
+}
+.login-screen .formLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-screen .buttonsRegister {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login-screen .login {
+  width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.login-screen .error {
+  color: red;
+  font-weight: 700;
+  font-size: 16px;
+}/*# sourceMappingURL=RegisterScreen.css.map */

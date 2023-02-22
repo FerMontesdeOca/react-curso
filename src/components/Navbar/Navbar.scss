@@ -1,11 +1,20 @@
 .menu__navbar{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     background-color: rgb(104, 202, 247);
     width: 100%;
 }
 
+.navbarCatalogo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
 #linkNavbar {
     text-decoration: none;
     display: flex;

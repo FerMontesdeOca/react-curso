@@ -4,4 +4,10 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=Checkout.css.map */

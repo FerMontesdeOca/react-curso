@@ -7,6 +7,7 @@ import { Formik } from "formik"
 import * as Yup from 'yup'
 import { Box, TextField } from "@mui/material"
 import "./Checkout.scss"
+import CheckoutComponent from "./CheckoutComplement"
 
 const schema = Yup.object().shape({
     nombre: Yup.string().min(4, 'Mínimo 4 caracteres').max(30, 'Máximo 30 caracteres').required('Este campo es requerido'),
@@ -102,6 +103,8 @@ const Checkout = () => {
                 {({
                     values, handleChange, handleSubmit, errors
                 }) => (
+                    <div className="form-group">
+                     <CheckoutComponent />
                     <Box onSubmit={handleSubmit} className="formCheckOut" component="form"
                     sx={{
                      '& > :not(style)': { m: 1, width: '45ch' },
@@ -119,6 +122,7 @@ const Checkout = () => {
 
                         <button className="btn btn-primary" type="submit">Enviar</button>
                     </Box>
+                    </div>
                 )}
             </Formik>
 

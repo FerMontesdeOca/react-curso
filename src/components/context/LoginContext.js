@@ -9,7 +9,6 @@ export const useLoginContext = () => {
 }
 
 export const LoginProvider = ({children}) => {
-    const [loading, setLoading] = useState(false)
     const [user, setUser] = useState({
         email: null,
         logged: false,
@@ -29,8 +28,7 @@ export const LoginProvider = ({children}) => {
     }
 
     const login = (values) => {
-        setLoading(true)
-
+    
         signInWithEmailAndPassword(auth, values.email, values.password)
             .catch((error) => {
                 console.log(error)
@@ -40,7 +38,6 @@ export const LoginProvider = ({children}) => {
                     error: error.message
                 })
             })
-            .finally(() => setLoading(false))
     }
 
     const logout = () => {
@@ -56,7 +53,6 @@ export const LoginProvider = ({children}) => {
     }
 
     const register = (values) => {
-        setLoading(true)
 
         createUserWithEmailAndPassword(auth, values.email, values.password)
             .catch((error) => {
@@ -67,7 +63,6 @@ export const LoginProvider = ({children}) => {
                     error: error.message
                 })
             })
-            .finally(() => setLoading(false))
     }
 
     useEffect(() => {
@@ -85,7 +80,7 @@ export const LoginProvider = ({children}) => {
     }, []) 
 
     return (
-        <LoginContext.Provider value={{googleLogin, user, login, logout, loading, register}}>
+        <LoginContext.Provider value={{googleLogin, user, login, logout, register}}>
             {children}
         </LoginContext.Provider>
     )

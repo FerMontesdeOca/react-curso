@@ -6,7 +6,7 @@ import"./Navbar.scss";
 import {Link} from "react-router-dom";
 import { useLoginContext} from "../context/LoginContext";
 
-function MenuNavbar() {
+export const MenuNavbar = () => {
   const { user, logout } = useLoginContext();
 
   return (
@@ -33,5 +33,4 @@ function MenuNavbar() {
   );
 }
 
-export default MenuNavbar;
 

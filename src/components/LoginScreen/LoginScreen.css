@@ -4,9 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(104, 202, 247);
-  opacity: 0.8;
-  background: repeating-linear-gradient(45deg, #0a0e56, #0a0e56 14.5px, rgb(104, 202, 247) 14.5px, rgb(104, 202, 247) 72.5px);
+  background-color: black;
 }
 .login-screen h2 {
   display: flex;
